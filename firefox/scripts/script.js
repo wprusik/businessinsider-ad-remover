@@ -1,1 +1,1 @@
-document.onload = () => document.getElementById('onet-ad-flat-belkagorna').remove()
+document.getElementById('onet-ad-flat-belkagorna').remove()

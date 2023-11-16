@@ -8,7 +8,7 @@
   "description": "Removes the advertising container at the top of the page businessinsider.com.pl, so it does not take up half of the screen",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/icon.ico"
   },
 
   "content_scripts": [
