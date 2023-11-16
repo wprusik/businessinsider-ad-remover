@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "BusinessInsider AD remover",
+  "version": "1.0",
+  "author": "Wojciech Prusik",
+
+  "description": "Removes the advertising container at the top of the page businessinsider.com.pl, so it does not take up half of the screen",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.businessinsider.com.pl/*"],
+      "js": ["scripts/script.js"]
+    }
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "48": "icons/icon.ico"
+    },
+    "default_title": "BusinessInsider AD Remover",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "storage"
+  ]
+}
